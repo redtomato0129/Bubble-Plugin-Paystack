@@ -1,0 +1,42 @@
+{
+    "assets": {
+        "AAE": {
+            "name": "Channels NG",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1658230418545x742960695586094000/SBP%20Tag%20-%20Payment%20Channels%20-%20NG.png"
+        },
+        "AAF": {
+            "name": "Channels_GH",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1658230441665x680254729577301800/SBP%20Tag%20-%20Payment%20Channels%20-%20GH.png"
+        },
+        "AAG": {
+            "name": "Channels_SA",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1658230454726x365905188885104830/SBP%20Tag%20-%20Payment%20Channels%20-%20SA.png"
+        },
+        "AAH": {
+            "name": "Channels_KE",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1658230466139x394417734092229440/SBP%20Tag%20-%20Payment%20Channels%20-%20KE.png"
+        },
+        "AAI": {
+            "name": "Secure_White",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1658230478172x453393621268694200/SBP%20-%20Badge%20-%20White.png"
+        },
+        "AEv": {
+            "name": "Graphik_Medum",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1662487903169x680808034937562200/Graphik-Medium.otf"
+        },
+        "AEw": {
+            "name": "Graphik_Regular",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1662487930691x241245881896188220/Graphik-Regular.otf"
+        }
+    },
+    "dependencies": {
+        "plugin_api_version": 3,
+        "use_jquery": true
+    },
+    "shared_keys": {
+        "AAC": {
+            "caption": "Public Key",
+            "type": "client_safe"
+        }
+    }
+}

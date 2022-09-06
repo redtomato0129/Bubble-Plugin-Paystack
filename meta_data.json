@@ -1,0 +1,13 @@
+{
+    "categories": {
+        "0": "payment",
+        "1": "ecommerce"
+    },
+    "demo_page": "https://paystack.com/demo/checkout",
+    "description": "Paystack makes it easy for businesses in Nigeria, Ghana and South Africa to accept secure payments from multiple local and global payment channels.",
+    "image": "//s3.amazonaws.com/appforest_uf/f1658230115552x276636423723943800/logo.png",
+    "license": "open_source",
+    "link": "https://paystack.com",
+    "name": "Paystack",
+    "plugin_instructions": "Lorem Ipsum dolor sit amet"
+}
