@@ -1,0 +1,368 @@
+{
+    "auth": "private_key_header",
+    "calls": {
+        "AAP": {
+            "doc_link": "https://paystack.com/docs/api/#transaction-verify",
+            "initialized": true,
+            "method": "get",
+            "name": "Verify Transaction",
+            "publish_as": "action",
+            "rank": 1,
+            "ret_value": "api.1658230089548x320199458797125600.plugin_api.AAP",
+            "should_reinitialize": false,
+            "types": "{\"plugin_api.AAP\":{\"caption\":\"Verify Transaction\",\"fields\":{\"_p_status\":{\"ret_value\":\"_ignore\"},\"_p_message\":{\"ret_value\":\"_ignore\"},\"_p_data.id\":{\"ret_value\":\"number\",\"caption\":\"id\",\"sample_value\":1961498126,\"path\":[\"data\",\"id\"]},\"_p_data.domain\":{\"ret_value\":\"text\",\"caption\":\"domain\",\"sample_value\":\"test\",\"path\":[\"data\",\"domain\"]},\"_p_data.status\":{\"ret_value\":\"text\",\"caption\":\"status\",\"sample_value\":\"success\",\"path\":[\"data\",\"status\"]},\"_p_data.reference\":{\"ret_value\":\"text\",\"caption\":\"reference\",\"sample_value\":\"a4f6bd29-cc75-4363-9746-a6643bc4c888\",\"path\":[\"data\",\"reference\"]},\"_p_data.amount\":{\"ret_value\":\"number\",\"caption\":\"amount\",\"sample_value\":30000,\"path\":[\"data\",\"amount\"]},\"_p_data.message\":{\"ret_value\":\"text\",\"caption\":\"message\",\"sample_value\":null,\"path\":[\"data\",\"message\"]},\"_p_data.gateway_response\":{\"ret_value\":\"text\",\"caption\":\"gateway_response\",\"sample_value\":\"Approved\",\"path\":[\"data\",\"gateway_response\"]},\"_p_data.paid_at\":{\"ret_value\":\"text\",\"caption\":\"paid_at\",\"sample_value\":\"2022-07-20T00:04:03.000Z\",\"path\":[\"data\",\"paid_at\"]},\"_p_data.created_at\":{\"ret_value\":\"text\",\"caption\":\"created_at\",\"sample_value\":\"2022-07-20T00:00:09.000Z\",\"path\":[\"data\",\"created_at\"]},\"_p_data.channel\":{\"ret_value\":\"text\",\"caption\":\"channel\",\"sample_value\":\"card\",\"path\":[\"data\",\"channel\"]},\"_p_data.currency\":{\"ret_value\":\"text\",\"caption\":\"currency\",\"sample_value\":\"ZAR\",\"path\":[\"data\",\"currency\"]},\"_p_data.ip_address\":{\"ret_value\":\"text\",\"caption\":\"ip_address\",\"sample_value\":null,\"path\":[\"data\",\"ip_address\"]},\"_p_data.metadata.invoice_action\":{\"ret_value\":\"_ignore\"},\"_p_data.log\":{\"ret_value\":\"_ignore\"},\"_p_data.fees\":{\"ret_value\":\"number\",\"caption\":\"fees\",\"sample_value\":970,\"path\":[\"data\",\"fees\"]},\"_p_data.fees_split\":{\"ret_value\":\"text\",\"caption\":\"fees_split\",\"sample_value\":null,\"path\":[\"data\",\"fees_split\"]},\"_p_data.authorization.authorization_code\":{\"ret_value\":\"text\",\"caption\":\"authorization authorization_code\",\"sample_value\":\"AUTH_s91im5cz8c\",\"path\":[\"data\",\"authorization\",\"authorization_code\"]},\"_p_data.authorization.bin\":{\"ret_value\":\"text\",\"caption\":\"authorization bin\",\"sample_value\":\"408408\",\"path\":[\"data\",\"authorization\",\"bin\"]},\"_p_data.authorization.last4\":{\"ret_value\":\"text\",\"caption\":\"authorization last4\",\"sample_value\":\"4081\",\"path\":[\"data\",\"authorization\",\"last4\"]},\"_p_data.authorization.exp_month\":{\"ret_value\":\"text\",\"caption\":\"authorization exp_month\",\"sample_value\":\"12\",\"path\":[\"data\",\"authorization\",\"exp_month\"]},\"_p_data.authorization.exp_year\":{\"ret_value\":\"text\",\"caption\":\"authorization exp_year\",\"sample_value\":\"2025\",\"path\":[\"data\",\"authorization\",\"exp_year\"]},\"_p_data.authorization.channel\":{\"ret_value\":\"text\",\"caption\":\"authorization channel\",\"sample_value\":\"card\",\"path\":[\"data\",\"authorization\",\"channel\"]},\"_p_data.authorization.card_type\":{\"ret_value\":\"text\",\"caption\":\"authorization card_type\",\"sample_value\":\"visa \",\"path\":[\"data\",\"authorization\",\"card_type\"]},\"_p_data.authorization.bank\":{\"ret_value\":\"text\",\"caption\":\"authorization bank\",\"sample_value\":\"TEST BANK\",\"path\":[\"data\",\"authorization\",\"bank\"]},\"_p_data.authorization.country_code\":{\"ret_value\":\"text\",\"caption\":\"authorization country_code\",\"sample_value\":\"ZA\",\"path\":[\"data\",\"authorization\",\"country_code\"]},\"_p_data.authorization.brand\":{\"ret_value\":\"text\",\"caption\":\"authorization brand\",\"sample_value\":\"visa\",\"path\":[\"data\",\"authorization\",\"brand\"]},\"_p_data.authorization.reusable\":{\"ret_value\":\"boolean\",\"caption\":\"authorization reusable\",\"sample_value\":true,\"path\":[\"data\",\"authorization\",\"reusable\"]},\"_p_data.authorization.signature\":{\"ret_value\":\"text\",\"caption\":\"authorization signature\",\"sample_value\":\"SIG_6ekhgN8wj7EsDoAxHooQ\",\"path\":[\"data\",\"authorization\",\"signature\"]},\"_p_data.authorization.account_name\":{\"ret_value\":\"text\",\"caption\":\"authorization account_name\",\"sample_value\":null,\"path\":[\"data\",\"authorization\",\"account_name\"]},\"_p_data.authorization.receiver_bank_account_number\":{\"ret_value\":\"text\",\"caption\":\"authorization receiver_bank_account_number\",\"sample_value\":null,\"path\":[\"data\",\"authorization\",\"receiver_bank_account_number\"]},\"_p_data.authorization.receiver_bank\":{\"ret_value\":\"text\",\"caption\":\"authorization receiver_bank\",\"sample_value\":null,\"path\":[\"data\",\"authorization\",\"receiver_bank\"]},\"_p_data.customer.id\":{\"ret_value\":\"number\",\"caption\":\"customer id\",\"sample_value\":36749135,\"path\":[\"data\",\"customer\",\"id\"]},\"_p_data.customer.first_name\":{\"ret_value\":\"text\",\"caption\":\"customer first_name\",\"sample_value\":\"Tolu\",\"path\":[\"data\",\"customer\",\"first_name\"]},\"_p_data.customer.last_name\":{\"ret_value\":\"text\",\"caption\":\"customer last_name\",\"sample_value\":\"Kalejaiye\",\"path\":[\"data\",\"customer\",\"last_name\"]},\"_p_data.customer.email\":{\"ret_value\":\"text\",\"caption\":\"customer email\",\"sample_value\":\"tolu@test.com\",\"path\":[\"data\",\"customer\",\"email\"]},\"_p_data.customer.customer_code\":{\"ret_value\":\"text\",\"caption\":\"customer customer_code\",\"sample_value\":\"CUS_l310yvpwpzojvp6\",\"path\":[\"data\",\"customer\",\"customer_code\"]},\"_p_data.customer.phone\":{\"ret_value\":\"text\",\"caption\":\"customer phone\",\"sample_value\":\"+27232323232\",\"path\":[\"data\",\"customer\",\"phone\"]},\"_p_data.customer.risk_action\":{\"ret_value\":\"text\",\"caption\":\"customer risk_action\",\"sample_value\":\"default\",\"path\":[\"data\",\"customer\",\"risk_action\"]},\"_p_data.customer.international_format_phone\":{\"ret_value\":\"text\",\"caption\":\"customer international_format_phone\",\"sample_value\":\"+27232323232\",\"path\":[\"data\",\"customer\",\"international_format_phone\"]},\"_p_data.plan\":{\"ret_value\":\"text\",\"caption\":\"plan\",\"sample_value\":\"PLN_5nja4tuv1flbldz\",\"path\":[\"data\",\"plan\"]},\"_p_data.order_id\":{\"ret_value\":\"text\",\"caption\":\"order_id\",\"sample_value\":null,\"path\":[\"data\",\"order_id\"]},\"_p_data.paidAt\":{\"ret_value\":\"text\",\"caption\":\"paidAt\",\"sample_value\":\"2022-07-20T00:04:03.000Z\",\"path\":[\"data\",\"paidAt\"]},\"_p_data.createdAt\":{\"ret_value\":\"text\",\"caption\":\"createdAt\",\"sample_value\":\"2022-07-20T00:00:09.000Z\",\"path\":[\"data\",\"createdAt\"]},\"_p_data.requested_amount\":{\"ret_value\":\"number\",\"caption\":\"requested_amount\",\"sample_value\":30000,\"path\":[\"data\",\"requested_amount\"]},\"_p_data.pos_transaction_data\":{\"ret_value\":\"text\",\"caption\":\"pos_transaction_data\",\"sample_value\":null,\"path\":[\"data\",\"pos_transaction_data\"]},\"_p_data.source\":{\"ret_value\":\"text\",\"caption\":\"source\",\"sample_value\":null,\"path\":[\"data\",\"source\"]},\"_p_data.fees_breakdown\":{\"ret_value\":\"text\",\"caption\":\"fees_breakdown\",\"sample_value\":null,\"path\":[\"data\",\"fees_breakdown\"]},\"_p_data.transaction_date\":{\"ret_value\":\"text\",\"caption\":\"transaction_date\",\"sample_value\":\"2022-07-20T00:00:09.000Z\",\"path\":[\"data\",\"transaction_date\"]},\"_p_data.plan_object.id\":{\"ret_value\":\"number\",\"caption\":\"plan_object id\",\"sample_value\":149478,\"path\":[\"data\",\"plan_object\",\"id\"]},\"_p_data.plan_object.name\":{\"ret_value\":\"text\",\"caption\":\"plan_object name\",\"sample_value\":\"Standard\",\"path\":[\"data\",\"plan_object\",\"name\"]},\"_p_data.plan_object.plan_code\":{\"ret_value\":\"text\",\"caption\":\"plan_object plan_code\",\"sample_value\":\"PLN_5nja4tuv1flbldz\",\"path\":[\"data\",\"plan_object\",\"plan_code\"]},\"_p_data.plan_object.description\":{\"ret_value\":\"text\",\"caption\":\"plan_object description\",\"sample_value\":null,\"path\":[\"data\",\"plan_object\",\"description\"]},\"_p_data.plan_object.amount\":{\"ret_value\":\"number\",\"caption\":\"plan_object amount\",\"sample_value\":30000,\"path\":[\"data\",\"plan_object\",\"amount\"]},\"_p_data.plan_object.interval\":{\"ret_value\":\"text\",\"caption\":\"plan_object interval\",\"sample_value\":\"monthly\",\"path\":[\"data\",\"plan_object\",\"interval\"]},\"_p_data.plan_object.send_invoices\":{\"ret_value\":\"boolean\",\"caption\":\"plan_object send_invoices\",\"sample_value\":true,\"path\":[\"data\",\"plan_object\",\"send_invoices\"]},\"_p_data.plan_object.send_sms\":{\"ret_value\":\"_ignore\"},\"_p_data.plan_object.currency\":{\"ret_value\":\"text\",\"caption\":\"plan_object currency\",\"sample_value\":\"ZAR\",\"path\":[\"data\",\"plan_object\",\"currency\"]}}}}",
+            "url": "https://api.paystack.co/transaction/verify/[reference]",
+            "url_params": {
+                "AAQ": {
+                    "doc": "Transaction reference",
+                    "key": "reference",
+                    "private": true,
+                    "value": "a4f6bd29-cc75-4363-9746-a6643bc4c888",
+                    "visibility": "public"
+                }
+            }
+        },
+        "AAR": {
+            "doc_link": "https://paystack.com/docs/api/#plan-list",
+            "initialized": true,
+            "method": "get",
+            "name": "List Plans",
+            "params": {
+                "AAS": {
+                    "key": "",
+                    "private": true,
+                    "value": ""
+                }
+            },
+            "publish_as": "data",
+            "rank": 4,
+            "ret_value": "api.1658230089548x320199458797125600.plugin_api.AAR",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAR\":{\"caption\":\"List Plan\",\"fields\":{\"_p_status\":{\"ret_value\":\"boolean\",\"caption\":\"status\",\"sample_value\":true,\"path\":[\"status\"]},\"_p_message\":{\"ret_value\":\"text\",\"caption\":\"message\",\"sample_value\":\"Plans retrieved\",\"path\":[\"message\"]},\"_p_data\":{\"ret_value\":\"list.api.1658230089548x320199458797125600.plugin_api.AAR.data\",\"caption\":\"data\",\"path\":[\"data\"]},\"_p_meta.total\":{\"ret_value\":\"number\",\"caption\":\"meta total\",\"sample_value\":3,\"path\":[\"meta\",\"total\"]},\"_p_meta.skipped\":{\"ret_value\":\"number\",\"caption\":\"meta skipped\",\"sample_value\":0,\"path\":[\"meta\",\"skipped\"]},\"_p_meta.perPage\":{\"ret_value\":\"number\",\"caption\":\"meta perPage\",\"sample_value\":50,\"path\":[\"meta\",\"perPage\"]},\"_p_meta.page\":{\"ret_value\":\"number\",\"caption\":\"meta page\",\"sample_value\":1,\"path\":[\"meta\",\"page\"]},\"_p_meta.pageCount\":{\"ret_value\":\"number\",\"caption\":\"meta pageCount\",\"sample_value\":1,\"path\":[\"meta\",\"pageCount\"]}}},\"plugin_api.AAR.data\":{\"caption\":\"List Plans data\",\"fields\":{\"_p_domain\":{\"ret_value\":\"text\",\"caption\":\"domain\",\"sample_value\":\"test\",\"path\":[\"domain\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"Premium\",\"path\":[\"name\"]},\"_p_plan_code\":{\"ret_value\":\"text\",\"caption\":\"plan_code\",\"sample_value\":\"PLN_wlqjpffk1m5fpmu\",\"path\":[\"plan_code\"]},\"_p_description\":{\"ret_value\":\"text\",\"caption\":\"description\",\"sample_value\":null,\"path\":[\"description\"]},\"_p_amount\":{\"ret_value\":\"number\",\"caption\":\"amount\",\"sample_value\":75000,\"path\":[\"amount\"]},\"_p_interval\":{\"ret_value\":\"text\",\"caption\":\"interval\",\"sample_value\":\"monthly\",\"path\":[\"interval\"]},\"_p_invoice_limit\":{\"ret_value\":\"number\",\"caption\":\"invoice_limit\",\"sample_value\":0,\"path\":[\"invoice_limit\"]},\"_p_send_invoices\":{\"ret_value\":\"boolean\",\"caption\":\"send_invoices\",\"sample_value\":true,\"path\":[\"send_invoices\"]},\"_p_send_sms\":{\"ret_value\":\"boolean\",\"caption\":\"send_sms\",\"sample_value\":true,\"path\":[\"send_sms\"]},\"_p_hosted_page\":{\"ret_value\":\"boolean\",\"caption\":\"hosted_page\",\"sample_value\":false,\"path\":[\"hosted_page\"]},\"_p_hosted_page_url\":{\"ret_value\":\"text\",\"caption\":\"hosted_page_url\",\"sample_value\":null,\"path\":[\"hosted_page_url\"]},\"_p_hosted_page_summary\":{\"ret_value\":\"text\",\"caption\":\"hosted_page_summary\",\"sample_value\":null,\"path\":[\"hosted_page_summary\"]},\"_p_currency\":{\"ret_value\":\"text\",\"caption\":\"currency\",\"sample_value\":\"ZAR\",\"path\":[\"currency\"]},\"_p_migrate\":{\"ret_value\":\"boolean\",\"caption\":\"migrate\",\"sample_value\":false,\"path\":[\"migrate\"]},\"_p_is_deleted\":{\"ret_value\":\"boolean\",\"caption\":\"is_deleted\",\"sample_value\":false,\"path\":[\"is_deleted\"]},\"_p_is_archived\":{\"ret_value\":\"boolean\",\"caption\":\"is_archived\",\"sample_value\":false,\"path\":[\"is_archived\"]},\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":149479,\"path\":[\"id\"]},\"_p_integration\":{\"ret_value\":\"number\",\"caption\":\"integration\",\"sample_value\":530700,\"path\":[\"integration\"]},\"_p_createdAt\":{\"ret_value\":\"text\",\"caption\":\"createdAt\",\"sample_value\":\"2021-09-11T16:56:34.000Z\",\"path\":[\"createdAt\"]},\"_p_updatedAt\":{\"ret_value\":\"text\",\"caption\":\"updatedAt\",\"sample_value\":\"2021-09-11T16:56:34.000Z\",\"path\":[\"updatedAt\"]},\"_p_total_subscriptions\":{\"ret_value\":\"number\",\"caption\":\"total_subscriptions\",\"sample_value\":0,\"path\":[\"total_subscriptions\"]},\"_p_active_subscriptions\":{\"ret_value\":\"number\",\"caption\":\"active_subscriptions\",\"sample_value\":0,\"path\":[\"active_subscriptions\"]},\"_p_total_subscriptions_revenue\":{\"ret_value\":\"number\",\"caption\":\"total_subscriptions_revenue\",\"sample_value\":0,\"path\":[\"total_subscriptions_revenue\"]},\"_p_subscriptions\":{\"ret_value\":\"_ignore\"}}}}",
+            "url": "https://api.paystack.co/plan?status=active&interval=[interval]",
+            "url_params": {
+                "AAT": {
+                    "allow_blank": true,
+                    "key": "interval",
+                    "private": true,
+                    "value": "monthly"
+                }
+            }
+        },
+        "AAU": {
+            "body": "{ \"name\": \"<name>\", \"interval\": \"<interval>\", \"amount\": <amount> ,\n    \"currency\": \"<currency>\", \"invoice_limit\": <invoice_limit>, \"send_invoices\":<send_invoices> }",
+            "body_params": {
+                "ABa": {
+                    "allow_blank": true,
+                    "doc": "Set to false if you don't want invoices to be sent to your customers",
+                    "key": "send_invoices",
+                    "private": true,
+                    "value": "true"
+                },
+                "ABu": {
+                    "allow_blank": true,
+                    "doc": "Currency in which amount is set. Allowed values are NGN, GHS, ZAR or USD",
+                    "key": "currency",
+                    "private": true,
+                    "value": "ZAR"
+                },
+                "ABw": {
+                    "allow_blank": true,
+                    "doc": "Number of invoices to raise during subscription to this plan. Set to 0 for infinity.",
+                    "key": "invoice_limit",
+                    "private": true,
+                    "value": "0"
+                },
+                "ABy": {
+                    "doc": "Amount should be in kobo if currency is NGN, pesewas, if currency is GHS, and cents, if currency is ZAR",
+                    "key": "amount",
+                    "private": true,
+                    "value": "2000"
+                },
+                "ACA": {
+                    "doc": "Interval in words. Valid intervals are: daily, weekly, monthly,biannually, annually.",
+                    "key": "interval",
+                    "private": true,
+                    "value": "weekly"
+                },
+                "ACC": {
+                    "doc": "Name of plan",
+                    "key": "name",
+                    "private": true,
+                    "value": "Plan name"
+                }
+            },
+            "doc_link": "https://paystack.com/docs/api/#plan-create",
+            "initialized": true,
+            "method": "post",
+            "name": "Create Plan",
+            "publish_as": "action",
+            "rank": 3,
+            "ret_value": "api.1658230089548x320199458797125600.plugin_api.AAU",
+            "should_reinitialize": false,
+            "types": "{\"plugin_api.AAU\":{\"caption\":\"Create Plan\",\"fields\":{\"_p_status\":{\"ret_value\":\"boolean\",\"caption\":\"status\",\"sample_value\":true,\"path\":[\"status\"]},\"_p_message\":{\"ret_value\":\"text\",\"caption\":\"message\",\"sample_value\":\"Plan created\",\"path\":[\"message\"]},\"_p_data.name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"Plan name\",\"path\":[\"data\",\"name\"]},\"_p_data.interval\":{\"ret_value\":\"text\",\"caption\":\"interval\",\"sample_value\":\"weekly\",\"path\":[\"data\",\"interval\"]},\"_p_data.amount\":{\"ret_value\":\"number\",\"caption\":\"amount\",\"sample_value\":2000,\"path\":[\"data\",\"amount\"]},\"_p_data.currency\":{\"ret_value\":\"text\",\"caption\":\"currency\",\"sample_value\":\"ZAR\",\"path\":[\"data\",\"currency\"]},\"_p_data.invoice_limit\":{\"ret_value\":\"number\",\"caption\":\"invoice_limit\",\"sample_value\":0,\"path\":[\"data\",\"invoice_limit\"]},\"_p_data.send_invoices\":{\"ret_value\":\"boolean\",\"caption\":\"send_invoices\",\"sample_value\":true,\"path\":[\"data\",\"send_invoices\"]},\"_p_data.integration\":{\"ret_value\":\"number\",\"caption\":\"integration\",\"sample_value\":530700,\"path\":[\"data\",\"integration\"]},\"_p_data.domain\":{\"ret_value\":\"text\",\"caption\":\"domain\",\"sample_value\":\"test\",\"path\":[\"data\",\"domain\"]},\"_p_data.plan_code\":{\"ret_value\":\"text\",\"caption\":\"plan_code\",\"sample_value\":\"PLN_aew4x8al4e0bzo1\",\"path\":[\"data\",\"plan_code\"]},\"_p_data.send_sms\":{\"ret_value\":\"boolean\",\"caption\":\"send_sms\",\"sample_value\":true,\"path\":[\"data\",\"send_sms\"]},\"_p_data.hosted_page\":{\"ret_value\":\"boolean\",\"caption\":\"hosted_page\",\"sample_value\":false,\"path\":[\"data\",\"hosted_page\"]},\"_p_data.migrate\":{\"ret_value\":\"boolean\",\"caption\":\"migrate\",\"sample_value\":false,\"path\":[\"data\",\"migrate\"]},\"_p_data.is_archived\":{\"ret_value\":\"boolean\",\"caption\":\"is_archived\",\"sample_value\":false,\"path\":[\"data\",\"is_archived\"]},\"_p_data.id\":{\"ret_value\":\"number\",\"caption\":\"id\",\"sample_value\":380510,\"path\":[\"data\",\"id\"]},\"_p_data.createdAt\":{\"ret_value\":\"text\",\"caption\":\"createdAt\",\"sample_value\":\"2022-08-30T15:44:27.034Z\",\"path\":[\"data\",\"createdAt\"]},\"_p_data.updatedAt\":{\"ret_value\":\"text\",\"caption\":\"updatedAt\",\"sample_value\":\"2022-08-30T15:44:27.034Z\",\"path\":[\"data\",\"updatedAt\"]}}}}",
+            "url": "https://api.paystack.co/plan"
+        },
+        "ACm": {
+            "body": "{ \"customer\": \"<customer>\", \"plan\": \"<plan_code>\", \"authorization\":\"<authorization_code>\", \"start_date\":\"<start_date>\"}",
+            "body_params": {
+                "ADV": {
+                    "doc": "",
+                    "key": "plan_code",
+                    "private": true,
+                    "value": "PLN_5nja4tuv1flbldz"
+                },
+                "ADn": {
+                    "allow_blank": true,
+                    "doc": "If customer has multiple authorizations, you can set the desired authorization you wish to use for this subscription here. If this is not supplied, the customer's most recent authorization would be used",
+                    "key": "authorization_code",
+                    "private": true,
+                    "value": "AUTH_c8104ey25q"
+                },
+                "ADx": {
+                    "allow_blank": true,
+                    "doc": "Set the date for the first debit. (ISO 8601 format) e.g. 2017-05-16T00:30:13+01:00",
+                    "key": "start_date",
+                    "private": true,
+                    "value": "1970-01-01T00:00:00+01:00"
+                },
+                "AED": {
+                    "doc": "Customer's email address or customer code",
+                    "key": "customer",
+                    "private": true,
+                    "value": "lukman@pstk.co"
+                }
+            },
+            "doc_link": "https://paystack.com/docs/api/#subscription-create",
+            "initialized": true,
+            "method": "post",
+            "name": "Subscribe customer to a plan",
+            "publish_as": "action",
+            "rank": 5,
+            "ret_value": "api.1658230089548x320199458797125600.plugin_api.ACm",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.ACm\":{\"caption\":\"cURL Call\",\"fields\":{\"_p_status\":{\"ret_value\":\"_ignore\"},\"_p_message\":{\"ret_value\":\"text\",\"caption\":\"message\",\"sample_value\":\"Subscription successfully created\",\"path\":[\"message\"]},\"_p_data.customer\":{\"ret_value\":\"number\",\"caption\":\"customer\",\"sample_value\":74926243,\"path\":[\"data\",\"customer\"]},\"_p_data.plan\":{\"ret_value\":\"number\",\"caption\":\"plan\",\"sample_value\":149478,\"path\":[\"data\",\"plan\"]},\"_p_data.integration\":{\"ret_value\":\"number\",\"caption\":\"integration\",\"sample_value\":530700,\"path\":[\"data\",\"integration\"]},\"_p_data.domain\":{\"ret_value\":\"text\",\"caption\":\"domain\",\"sample_value\":\"test\",\"path\":[\"data\",\"domain\"]},\"_p_data.start\":{\"ret_value\":\"number\",\"caption\":\"start\",\"sample_value\":1661875389,\"path\":[\"data\",\"start\"]},\"_p_data.status\":{\"ret_value\":\"text\",\"caption\":\"status\",\"sample_value\":\"active\",\"path\":[\"data\",\"status\"]},\"_p_data.quantity\":{\"ret_value\":\"number\",\"caption\":\"quantity\",\"sample_value\":1,\"path\":[\"data\",\"quantity\"]},\"_p_data.amount\":{\"ret_value\":\"number\",\"caption\":\"amount\",\"sample_value\":30000,\"path\":[\"data\",\"amount\"]},\"_p_data.authorization\":{\"ret_value\":\"number\",\"caption\":\"authorization\",\"sample_value\":389048404,\"path\":[\"data\",\"authorization\"]},\"_p_data.invoice_limit\":{\"ret_value\":\"number\",\"caption\":\"invoice_limit\",\"sample_value\":0,\"path\":[\"data\",\"invoice_limit\"]},\"_p_data.split_code\":{\"ret_value\":\"text\",\"caption\":\"split_code\",\"sample_value\":null,\"path\":[\"data\",\"split_code\"]},\"_p_data.subscription_code\":{\"ret_value\":\"text\",\"caption\":\"subscription_code\",\"sample_value\":\"SUB_4upl8bc6v80a70a\",\"path\":[\"data\",\"subscription_code\"]},\"_p_data.email_token\":{\"ret_value\":\"text\",\"caption\":\"email_token\",\"sample_value\":\"svn6pypt08di1nf\",\"path\":[\"data\",\"email_token\"]},\"_p_data.id\":{\"ret_value\":\"number\",\"caption\":\"id\",\"sample_value\":449077,\"path\":[\"data\",\"id\"]},\"_p_data.cancelledAt\":{\"ret_value\":\"text\",\"caption\":\"cancelledAt\",\"sample_value\":null,\"path\":[\"data\",\"cancelledAt\"]},\"_p_data.createdAt\":{\"ret_value\":\"text\",\"caption\":\"createdAt\",\"sample_value\":\"2022-08-30T16:03:09.105Z\",\"path\":[\"data\",\"createdAt\"]},\"_p_data.updatedAt\":{\"ret_value\":\"text\",\"caption\":\"updatedAt\",\"sample_value\":\"2022-08-30T16:03:09.105Z\",\"path\":[\"data\",\"updatedAt\"]},\"_p_data.cron_expression\":{\"ret_value\":\"text\",\"caption\":\"cron_expression\",\"sample_value\":\"0 23 28 * *\",\"path\":[\"data\",\"cron_expression\"]},\"_p_data.next_payment_date\":{\"ret_value\":\"text\",\"caption\":\"next_payment_date\",\"sample_value\":\"1969-12-31T23:00:00.000Z\",\"path\":[\"data\",\"next_payment_date\"]}}}}",
+            "url": "https://api.paystack.co/subscription"
+        },
+        "AEE": {
+            "doc_link": "https://paystack.com/docs/api/#split-list",
+            "initialized": true,
+            "method": "get",
+            "name": "List Splits",
+            "publish_as": "data",
+            "rank": 6,
+            "ret_value": "api.1658230089548x320199458797125600.plugin_api.AEE",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AEE\":{\"caption\":\"List Split\",\"fields\":{\"_p_status\":{\"ret_value\":\"_ignore\"},\"_p_message\":{\"ret_value\":\"_ignore\"},\"_p_data\":{\"ret_value\":\"list.api.1658230089548x320199458797125600.plugin_api.AEE.data\",\"caption\":\"data\",\"path\":[\"data\"]},\"_p_meta.total\":{\"ret_value\":\"_ignore\"},\"_p_meta.skipped\":{\"ret_value\":\"_ignore\"},\"_p_meta.perPage\":{\"ret_value\":\"_ignore\"},\"_p_meta.page\":{\"ret_value\":\"_ignore\"},\"_p_meta.pageCount\":{\"ret_value\":\"_ignore\"}}},\"plugin_api.AEE.data\":{\"caption\":\"List Splits data\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":411407,\"path\":[\"id\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"Dynamic Split at 1652883803034\",\"path\":[\"name\"]},\"_p_type\":{\"ret_value\":\"text\",\"caption\":\"type\",\"sample_value\":\"flat\",\"path\":[\"type\"]},\"_p_currency\":{\"ret_value\":\"text\",\"caption\":\"currency\",\"sample_value\":\"ZAR\",\"path\":[\"currency\"]},\"_p_integration\":{\"ret_value\":\"number\",\"caption\":\"integration\",\"sample_value\":530700,\"path\":[\"integration\"]},\"_p_domain\":{\"ret_value\":\"text\",\"caption\":\"domain\",\"sample_value\":\"test\",\"path\":[\"domain\"]},\"_p_split_code\":{\"ret_value\":\"text\",\"caption\":\"split_code\",\"sample_value\":\"SPL_5yWtAG4Xpl\",\"path\":[\"split_code\"]},\"_p_active\":{\"ret_value\":\"boolean\",\"caption\":\"active\",\"sample_value\":true,\"path\":[\"active\"]},\"_p_bearer_type\":{\"ret_value\":\"text\",\"caption\":\"bearer_type\",\"sample_value\":\"account\",\"path\":[\"bearer_type\"]},\"_p_bearer_subaccount\":{\"ret_value\":\"text\",\"caption\":\"bearer_subaccount\",\"sample_value\":null,\"path\":[\"bearer_subaccount\"]},\"_p_createdAt\":{\"ret_value\":\"text\",\"caption\":\"createdAt\",\"sample_value\":\"2022-05-18T14:23:23.000Z\",\"path\":[\"createdAt\"]},\"_p_updatedAt\":{\"ret_value\":\"text\",\"caption\":\"updatedAt\",\"sample_value\":\"2022-05-18T14:23:23.000Z\",\"path\":[\"updatedAt\"]},\"_p_is_dynamic\":{\"ret_value\":\"boolean\",\"caption\":\"is_dynamic\",\"sample_value\":true,\"path\":[\"is_dynamic\"]},\"_p_subaccounts\":{\"ret_value\":\"_ignore\"},\"_p_total_subaccounts\":{\"ret_value\":\"number\",\"caption\":\"total_subaccounts\",\"sample_value\":2,\"path\":[\"total_subaccounts\"]}}}}",
+            "url": "https://api.paystack.co/split?active=true"
+        },
+        "AEF": {
+            "doc_link": "https://paystack.com/docs/api/#subaccount-list",
+            "initialized": true,
+            "method": "get",
+            "name": "List Subaccounts",
+            "publish_as": "data",
+            "rank": 7,
+            "ret_value": "api.1658230089548x320199458797125600.plugin_api.AEF",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AEF\":{\"caption\":\"List Subaccount\",\"fields\":{\"_p_status\":{\"ret_value\":\"_ignore\"},\"_p_message\":{\"ret_value\":\"_ignore\"},\"_p_data\":{\"ret_value\":\"list.api.1658230089548x320199458797125600.plugin_api.AEF.data\",\"caption\":\"data\",\"path\":[\"data\"]},\"_p_meta.total\":{\"ret_value\":\"number\",\"caption\":\"meta total\",\"sample_value\":6,\"path\":[\"meta\",\"total\"]},\"_p_meta.skipped\":{\"ret_value\":\"number\",\"caption\":\"meta skipped\",\"sample_value\":0,\"path\":[\"meta\",\"skipped\"]},\"_p_meta.perPage\":{\"ret_value\":\"number\",\"caption\":\"meta perPage\",\"sample_value\":50,\"path\":[\"meta\",\"perPage\"]},\"_p_meta.page\":{\"ret_value\":\"number\",\"caption\":\"meta page\",\"sample_value\":1,\"path\":[\"meta\",\"page\"]},\"_p_meta.pageCount\":{\"ret_value\":\"number\",\"caption\":\"meta pageCount\",\"sample_value\":1,\"path\":[\"meta\",\"pageCount\"]}}},\"plugin_api.AEF.data\":{\"caption\":\"List Subaccounts data\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":523210,\"path\":[\"id\"]},\"_p_subaccount_code\":{\"ret_value\":\"text\",\"caption\":\"subaccount_code\",\"sample_value\":\"ACCT_r56edei4okmllle\",\"path\":[\"subaccount_code\"]},\"_p_business_name\":{\"ret_value\":\"text\",\"caption\":\"business_name\",\"sample_value\":\"Split to LastManStand\",\"path\":[\"business_name\"]},\"_p_description\":{\"ret_value\":\"text\",\"caption\":\"description\",\"sample_value\":\"Split to LastManStand\",\"path\":[\"description\"]},\"_p_primary_contact_name\":{\"ret_value\":\"text\",\"caption\":\"primary_contact_name\",\"sample_value\":null,\"path\":[\"primary_contact_name\"]},\"_p_primary_contact_email\":{\"ret_value\":\"text\",\"caption\":\"primary_contact_email\",\"sample_value\":null,\"path\":[\"primary_contact_email\"]},\"_p_primary_contact_phone\":{\"ret_value\":\"text\",\"caption\":\"primary_contact_phone\",\"sample_value\":null,\"path\":[\"primary_contact_phone\"]},\"_p_metadata\":{\"ret_value\":\"text\",\"caption\":\"metadata\",\"sample_value\":null,\"path\":[\"metadata\"]},\"_p_percentage_charge\":{\"ret_value\":\"number\",\"caption\":\"percentage_charge\",\"sample_value\":5,\"path\":[\"percentage_charge\"]},\"_p_settlement_bank\":{\"ret_value\":\"text\",\"caption\":\"settlement_bank\",\"sample_value\":\"African Bank Limited\",\"path\":[\"settlement_bank\"]},\"_p_account_number\":{\"ret_value\":\"text\",\"caption\":\"account_number\",\"sample_value\":\"00000000000\",\"path\":[\"account_number\"]},\"_p_currency\":{\"ret_value\":\"text\",\"caption\":\"currency\",\"sample_value\":\"ZAR\",\"path\":[\"currency\"]},\"_p_active\":{\"ret_value\":\"number\",\"caption\":\"active\",\"sample_value\":1,\"path\":[\"active\"]}}}}",
+            "url": "https://api.paystack.co/subaccount"
+        },
+        "AEG": {
+            "doc_link": "https://paystack.com/docs/api/#customer-list",
+            "initialized": true,
+            "method": "get",
+            "name": "List Customer",
+            "publish_as": "data",
+            "rank": 8,
+            "ret_value": "api.1658230089548x320199458797125600.plugin_api.AEG",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AEG\":{\"caption\":\"List Customer\",\"fields\":{\"_p_status\":{\"ret_value\":\"_ignore\"},\"_p_message\":{\"ret_value\":\"_ignore\"},\"_p_data\":{\"ret_value\":\"list.api.1658230089548x320199458797125600.plugin_api.AEG.data\",\"caption\":\"data\",\"path\":[\"data\"]},\"_p_meta.total\":{\"ret_value\":\"_ignore\"},\"_p_meta.skipped\":{\"ret_value\":\"_ignore\"},\"_p_meta.perPage\":{\"ret_value\":\"_ignore\"},\"_p_meta.page\":{\"ret_value\":\"_ignore\"},\"_p_meta.pageCount\":{\"ret_value\":\"_ignore\"}}},\"plugin_api.AEG.data\":{\"caption\":\"List Customer data\",\"fields\":{\"_p_integration\":{\"ret_value\":\"number\",\"caption\":\"integration\",\"sample_value\":530700,\"path\":[\"integration\"]},\"_p_first_name\":{\"ret_value\":\"text\",\"caption\":\"first_name\",\"sample_value\":\"\",\"path\":[\"first_name\"]},\"_p_last_name\":{\"ret_value\":\"text\",\"caption\":\"last_name\",\"sample_value\":\"\",\"path\":[\"last_name\"]},\"_p_email\":{\"ret_value\":\"text\",\"caption\":\"email\",\"sample_value\":\"lukman@sprk.co\",\"path\":[\"email\"]},\"_p_phone\":{\"ret_value\":\"text\",\"caption\":\"phone\",\"sample_value\":\"\",\"path\":[\"phone\"]},\"_p_metadata\":{\"ret_value\":\"text\",\"caption\":\"metadata\",\"sample_value\":null,\"path\":[\"metadata\"]},\"_p_domain\":{\"ret_value\":\"text\",\"caption\":\"domain\",\"sample_value\":\"test\",\"path\":[\"domain\"]},\"_p_customer_code\":{\"ret_value\":\"text\",\"caption\":\"customer_code\",\"sample_value\":\"CUS_wn1zw01xmbcvhae\",\"path\":[\"customer_code\"]},\"_p_risk_action\":{\"ret_value\":\"text\",\"caption\":\"risk_action\",\"sample_value\":\"default\",\"path\":[\"risk_action\"]},\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":92698285,\"path\":[\"id\"]},\"_p_createdAt\":{\"ret_value\":\"text\",\"caption\":\"createdAt\",\"sample_value\":\"2022-08-30T12:37:21.000Z\",\"path\":[\"createdAt\"]},\"_p_updatedAt\":{\"ret_value\":\"text\",\"caption\":\"updatedAt\",\"sample_value\":\"2022-08-30T12:37:21.000Z\",\"path\":[\"updatedAt\"]}}}}",
+            "url": "https://api.paystack.co/customer"
+        },
+        "AEH": {
+            "doc_link": "https://paystack.com/docs/api/#customer-list",
+            "initialized": true,
+            "method": "get",
+            "name": "Fetch Customer",
+            "publish_as": "data",
+            "rank": 9,
+            "ret_value": "api.1658230089548x320199458797125600.plugin_api.AEH",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AEH\":{\"caption\":\"Fetch Customer\",\"fields\":{\"_p_status\":{\"ret_value\":\"_ignore\"},\"_p_message\":{\"ret_value\":\"_ignore\"},\"_p_data.subscriptions\":{\"ret_value\":\"list.api.1658230089548x320199458797125600.plugin_api.AEH.data.subscriptions\",\"caption\":\"subscriptions\",\"path\":[\"data\",\"subscriptions\"]},\"_p_data.authorizations\":{\"ret_value\":\"list.api.1658230089548x320199458797125600.plugin_api.AEH.data.authorizations\",\"caption\":\"authorizations\",\"path\":[\"data\",\"authorizations\"]},\"_p_data.first_name\":{\"ret_value\":\"text\",\"caption\":\"first_name\",\"sample_value\":null,\"path\":[\"data\",\"first_name\"]},\"_p_data.last_name\":{\"ret_value\":\"text\",\"caption\":\"last_name\",\"sample_value\":null,\"path\":[\"data\",\"last_name\"]},\"_p_data.email\":{\"ret_value\":\"text\",\"caption\":\"email\",\"sample_value\":\"lukman@pstk.co\",\"path\":[\"data\",\"email\"]},\"_p_data.phone\":{\"ret_value\":\"text\",\"caption\":\"phone\",\"sample_value\":null,\"path\":[\"data\",\"phone\"]},\"_p_data.metadata\":{\"ret_value\":\"text\",\"caption\":\"metadata\",\"sample_value\":null,\"path\":[\"data\",\"metadata\"]},\"_p_data.domain\":{\"ret_value\":\"text\",\"caption\":\"domain\",\"sample_value\":\"test\",\"path\":[\"data\",\"domain\"]},\"_p_data.customer_code\":{\"ret_value\":\"text\",\"caption\":\"customer_code\",\"sample_value\":\"CUS_nxx1g96p9yy13k4\",\"path\":[\"data\",\"customer_code\"]},\"_p_data.risk_action\":{\"ret_value\":\"text\",\"caption\":\"risk_action\",\"sample_value\":\"default\",\"path\":[\"data\",\"risk_action\"]},\"_p_data.id\":{\"ret_value\":\"number\",\"caption\":\"id\",\"sample_value\":74926243,\"path\":[\"data\",\"id\"]},\"_p_data.integration\":{\"ret_value\":\"number\",\"caption\":\"integration\",\"sample_value\":530700,\"path\":[\"data\",\"integration\"]},\"_p_data.createdAt\":{\"ret_value\":\"text\",\"caption\":\"createdAt\",\"sample_value\":\"2022-03-29T10:00:52.000Z\",\"path\":[\"data\",\"createdAt\"]},\"_p_data.updatedAt\":{\"ret_value\":\"text\",\"caption\":\"updatedAt\",\"sample_value\":\"2022-03-29T10:00:52.000Z\",\"path\":[\"data\",\"updatedAt\"]},\"_p_data.created_at\":{\"ret_value\":\"text\",\"caption\":\"created_at\",\"sample_value\":\"2022-03-29T10:00:52.000Z\",\"path\":[\"data\",\"created_at\"]},\"_p_data.updated_at\":{\"ret_value\":\"text\",\"caption\":\"updated_at\",\"sample_value\":\"2022-03-29T10:00:52.000Z\",\"path\":[\"data\",\"updated_at\"]},\"_p_data.total_transactions\":{\"ret_value\":\"number\",\"caption\":\"total_transactions\",\"sample_value\":0,\"path\":[\"data\",\"total_transactions\"]},\"_p_data.dedicated_account\":{\"ret_value\":\"text\",\"caption\":\"dedicated_account\",\"sample_value\":null,\"path\":[\"data\",\"dedicated_account\"]},\"_p_data.identified\":{\"ret_value\":\"boolean\",\"caption\":\"identified\",\"sample_value\":false,\"path\":[\"data\",\"identified\"]},\"_p_data.identifications\":{\"ret_value\":\"text\",\"caption\":\"identifications\",\"sample_value\":null,\"path\":[\"data\",\"identifications\"]}}},\"plugin_api.AEH.data.subscriptions\":{\"caption\":\"Fetch Customer data subscription\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":449075,\"path\":[\"id\"]},\"_p_domain\":{\"ret_value\":\"text\",\"caption\":\"domain\",\"sample_value\":\"test\",\"path\":[\"domain\"]},\"_p_status\":{\"ret_value\":\"text\",\"caption\":\"status\",\"sample_value\":\"active\",\"path\":[\"status\"]},\"_p_subscription_code\":{\"ret_value\":\"text\",\"caption\":\"subscription_code\",\"sample_value\":\"SUB_95i9ww1pdv7gp8j\",\"path\":[\"subscription_code\"]},\"_p_email_token\":{\"ret_value\":\"text\",\"caption\":\"email_token\",\"sample_value\":\"uf132xeq8x0kcxx\",\"path\":[\"email_token\"]},\"_p_amount\":{\"ret_value\":\"number\",\"caption\":\"amount\",\"sample_value\":2000,\"path\":[\"amount\"]},\"_p_cron_expression\":{\"ret_value\":\"text\",\"caption\":\"cron_expression\",\"sample_value\":\"0 23 28 * *\",\"path\":[\"cron_expression\"]},\"_p_next_payment_date\":{\"ret_value\":\"text\",\"caption\":\"next_payment_date\",\"sample_value\":\"1969-12-31T23:00:00.000Z\",\"path\":[\"next_payment_date\"]},\"_p_open_invoice\":{\"ret_value\":\"text\",\"caption\":\"open_invoice\",\"sample_value\":null,\"path\":[\"open_invoice\"]},\"_p_createdAt\":{\"ret_value\":\"text\",\"caption\":\"createdAt\",\"sample_value\":\"2022-08-30T16:01:52.000Z\",\"path\":[\"createdAt\"]},\"_p_integration\":{\"ret_value\":\"number\",\"caption\":\"integration\",\"sample_value\":530700,\"path\":[\"integration\"]},\"_p_authorization.exp_month\":{\"ret_value\":\"text\",\"caption\":\"authorization exp_month\",\"sample_value\":null,\"path\":[\"authorization\",\"exp_month\"]},\"_p_authorization.exp_year\":{\"ret_value\":\"text\",\"caption\":\"authorization exp_year\",\"sample_value\":null,\"path\":[\"authorization\",\"exp_year\"]},\"_p_authorization.account_name\":{\"ret_value\":\"text\",\"caption\":\"authorization account_name\",\"sample_value\":null,\"path\":[\"authorization\",\"account_name\"]},\"_p_customer.international_format_phone\":{\"ret_value\":\"text\",\"caption\":\"customer international_format_phone\",\"sample_value\":null,\"path\":[\"customer\",\"international_format_phone\"]},\"_p_invoice_limit\":{\"ret_value\":\"number\",\"caption\":\"invoice_limit\",\"sample_value\":0,\"path\":[\"invoice_limit\"]},\"_p_split_code\":{\"ret_value\":\"text\",\"caption\":\"split_code\",\"sample_value\":null,\"path\":[\"split_code\"]},\"_p_most_recent_invoice\":{\"ret_value\":\"text\",\"caption\":\"most_recent_invoice\",\"sample_value\":null,\"path\":[\"most_recent_invoice\"]}}},\"plugin_api.AEH.data.authorizations\":{\"caption\":\"Fetch Customer data authorization\",\"fields\":{\"_p_authorization_code\":{\"ret_value\":\"text\",\"caption\":\"authorization_code\",\"sample_value\":\"AUTH_c8104ey25q\",\"path\":[\"authorization_code\"]},\"_p_bin\":{\"ret_value\":\"text\",\"caption\":\"bin\",\"sample_value\":\"408408\",\"path\":[\"bin\"]},\"_p_last4\":{\"ret_value\":\"text\",\"caption\":\"last4\",\"sample_value\":\"0409\",\"path\":[\"last4\"]},\"_p_exp_month\":{\"ret_value\":\"text\",\"caption\":\"exp_month\",\"sample_value\":\"01\",\"path\":[\"exp_month\"]},\"_p_exp_year\":{\"ret_value\":\"text\",\"caption\":\"exp_year\",\"sample_value\":\"2030\",\"path\":[\"exp_year\"]},\"_p_channel\":{\"ret_value\":\"text\",\"caption\":\"channel\",\"sample_value\":\"card\",\"path\":[\"channel\"]},\"_p_card_type\":{\"ret_value\":\"text\",\"caption\":\"card_type\",\"sample_value\":\"visa \",\"path\":[\"card_type\"]},\"_p_bank\":{\"ret_value\":\"text\",\"caption\":\"bank\",\"sample_value\":\"TEST BANK\",\"path\":[\"bank\"]},\"_p_country_code\":{\"ret_value\":\"text\",\"caption\":\"country_code\",\"sample_value\":\"ZA\",\"path\":[\"country_code\"]},\"_p_brand\":{\"ret_value\":\"text\",\"caption\":\"brand\",\"sample_value\":\"visa\",\"path\":[\"brand\"]},\"_p_reusable\":{\"ret_value\":\"boolean\",\"caption\":\"reusable\",\"sample_value\":true,\"path\":[\"reusable\"]},\"_p_signature\":{\"ret_value\":\"text\",\"caption\":\"signature\",\"sample_value\":\"SIG_0jZEk2Js9lR8ptMXHgXv\",\"path\":[\"signature\"]},\"_p_account_name\":{\"ret_value\":\"text\",\"caption\":\"account_name\",\"sample_value\":null,\"path\":[\"account_name\"]}}}}",
+            "url": "https://api.paystack.co/customer/[email]",
+            "url_params": {
+                "AEI": {
+                    "key": "email",
+                    "private": true,
+                    "value": "lukman@pstk.co"
+                }
+            }
+        },
+        "AEX": {
+            "doc_link": "https://paystack.com/docs/api/#transaction-initialize",
+            "initialized": true,
+            "method": "post",
+            "name": "Initialize Transaction",
+            "params": {
+                "AEY": {
+                    "doc": "Customer's email address",
+                    "key": "email",
+                    "private": true,
+                    "value": ""
+                },
+                "AEZ": {
+                    "doc": "Amount should be in kobo if currency is NGN, pesewas, if currency is GHS, and cents, if currency is ZAR",
+                    "key": "amount",
+                    "private": true,
+                    "value": ""
+                },
+                "AEa": {
+                    "allow_blank": false,
+                    "doc": "Unique case sensitive transaction reference. Only -,`.`, = and alphanumeric characters allowed. If not specified, a reference will be auto-generated for the transaction",
+                    "key": "reference",
+                    "optional": true,
+                    "private": true,
+                    "value": ""
+                },
+                "AEb": {
+                    "allow_blank": false,
+                    "doc": "The transaction currency (NGN, GHS, ZAR or USD). Defaults to your integration currency.",
+                    "key": "currency",
+                    "optional": true,
+                    "private": true,
+                    "value": ""
+                },
+                "AEc": {
+                    "allow_blank": false,
+                    "doc": "Fully qualified url, e.g. https://example.com/ where customer will be redirected to after payment.",
+                    "key": "callback_url",
+                    "optional": true,
+                    "private": true,
+                    "value": ""
+                },
+                "AEe": {
+                    "allow_blank": false,
+                    "doc": "If transaction is to create a subscription to a predefined plan, provide plan code here. This would invalidate the value provided in amount",
+                    "key": "plan",
+                    "optional": true,
+                    "private": true,
+                    "value": ""
+                },
+                "AEf": {
+                    "allow_blank": false,
+                    "doc": "The split code of the transaction split. e.g. SPL_98WF13Eb3w",
+                    "key": "split_code",
+                    "optional": true,
+                    "private": true,
+                    "value": ""
+                },
+                "AEg": {
+                    "doc": "The code for the subaccount that owns the payment. e.g. ACCT_8f4s1eq7ml6rlzj",
+                    "key": "subaccount",
+                    "optional": true,
+                    "private": true,
+                    "value": ""
+                },
+                "AEh": {
+                    "doc": "An amount used to override the split configuration for a single split payment. If set, the amount specified goes to the main account, and the rest goes to the subaccount.",
+                    "key": "transaction_charge",
+                    "optional": true,
+                    "private": true,
+                    "value": ""
+                },
+                "AEi": {
+                    "doc": "Who bears Paystack charges? account or subaccount (defaults to account).",
+                    "key": "bearer",
+                    "optional": true,
+                    "private": true,
+                    "value": ""
+                }
+            },
+            "publish_as": "action",
+            "rank": 0,
+            "ret_value": "api.1658230089548x320199458797125600.plugin_api.AEX",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AEX\":{\"caption\":\"Initialize transaction\",\"fields\":{\"_p_status\":{\"ret_value\":\"boolean\",\"caption\":\"status\",\"sample_value\":true,\"path\":[\"status\"]},\"_p_message\":{\"ret_value\":\"text\",\"caption\":\"message\",\"sample_value\":\"Authorization URL created\",\"path\":[\"message\"]},\"_p_data.authorization_url\":{\"ret_value\":\"text\",\"caption\":\"authorization_url\",\"sample_value\":\"https://checkout.paystack.com/65zbvgkm7x7due2\",\"path\":[\"data\",\"authorization_url\"]},\"_p_data.access_code\":{\"ret_value\":\"text\",\"caption\":\"access_code\",\"sample_value\":\"65zbvgkm7x7due2\",\"path\":[\"data\",\"access_code\"]},\"_p_data.reference\":{\"ret_value\":\"text\",\"caption\":\"reference\",\"sample_value\":\"z04irlkuvc\",\"path\":[\"data\",\"reference\"]}}}}",
+            "url": "https://api.paystack.co/transaction/initialize"
+        },
+        "AEj": {
+            "doc_link": "https://paystack.com/docs/api/#transaction-charge-authorization",
+            "initialized": true,
+            "method": "post",
+            "name": "Charge an authorization code",
+            "params": {
+                "AEk": {
+                    "doc": "Customer's email address",
+                    "key": "email",
+                    "private": true,
+                    "value": ""
+                },
+                "AEl": {
+                    "doc": "Amount should be in kobo if currency is NGN, pesewas, if currency is GHS, and cents, if currency is ZAR",
+                    "key": "amount",
+                    "private": true,
+                    "value": ""
+                },
+                "AEm": {
+                    "doc": "Valid authorization code to charge e.g AUTH_nopw9k1we",
+                    "key": "authorization_code",
+                    "private": true,
+                    "value": ""
+                },
+                "AEn": {
+                    "doc": "Unique case sensitive transaction reference. Only -,`.`, = and alphanumeric characters allowed. If not specified, a reference will be auto-generated for the transaction",
+                    "key": "reference",
+                    "optional": true,
+                    "private": true,
+                    "value": ""
+                },
+                "AEo": {
+                    "doc": "Currency in which amount should be charged. Allowed values are: NGN, GHS, ZAR or USD",
+                    "key": "currency",
+                    "optional": true,
+                    "private": true,
+                    "value": ""
+                },
+                "AEp": {
+                    "doc": "The code for the subaccount that owns the payment. e.g. ACCT_8f4s1eq7ml6rlzj",
+                    "key": "subaccount",
+                    "optional": true,
+                    "private": true,
+                    "value": ""
+                },
+                "AEq": {
+                    "doc": "An amount used to override the split configuration for a single split payment. If set, the amount specified goes to the main account, and the rest goes to the subaccount.",
+                    "key": "transaction_charge",
+                    "optional": true,
+                    "private": true,
+                    "value": ""
+                },
+                "AEr": {
+                    "doc": "Who bears Paystack charges? account or subaccount (defaults to account).",
+                    "key": "bearer",
+                    "optional": true,
+                    "private": true,
+                    "value": ""
+                },
+                "AEs": {
+                    "doc": "The split code of the transaction split. e.g. SPL_98WF13Eb3w",
+                    "key": "split_code",
+                    "optional": true,
+                    "private": true,
+                    "value": ""
+                }
+            },
+            "publish_as": "action",
+            "rank": 2,
+            "ret_value": "api.1658230089548x320199458797125600.plugin_api.AEj",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AEj\":{\"caption\":\"Charge an authorization code\",\"fields\":{\"_p_status\":{\"ret_value\":\"_ignore\"},\"_p_message\":{\"ret_value\":\"text\",\"caption\":\"message\",\"sample_value\":\"Charge attempted\",\"path\":[\"message\"]},\"_p_data.amount\":{\"ret_value\":\"number\",\"caption\":\"amount\",\"sample_value\":1000,\"path\":[\"data\",\"amount\"]},\"_p_data.currency\":{\"ret_value\":\"text\",\"caption\":\"currency\",\"sample_value\":\"ZAR\",\"path\":[\"data\",\"currency\"]},\"_p_data.transaction_date\":{\"ret_value\":\"text\",\"caption\":\"transaction_date\",\"sample_value\":\"2022-09-06T16:52:32.000Z\",\"path\":[\"data\",\"transaction_date\"]},\"_p_data.status\":{\"ret_value\":\"text\",\"caption\":\"status\",\"sample_value\":\"success\",\"path\":[\"data\",\"status\"]},\"_p_data.reference\":{\"ret_value\":\"text\",\"caption\":\"reference\",\"sample_value\":\"lpi70m9x6w18qyt\",\"path\":[\"data\",\"reference\"]},\"_p_data.domain\":{\"ret_value\":\"text\",\"caption\":\"domain\",\"sample_value\":\"test\",\"path\":[\"data\",\"domain\"]},\"_p_data.metadata\":{\"ret_value\":\"text\",\"caption\":\"metadata\",\"sample_value\":\"\",\"path\":[\"data\",\"metadata\"]},\"_p_data.gateway_response\":{\"ret_value\":\"text\",\"caption\":\"gateway_response\",\"sample_value\":\"Approved\",\"path\":[\"data\",\"gateway_response\"]},\"_p_data.message\":{\"ret_value\":\"text\",\"caption\":\"message\",\"sample_value\":null,\"path\":[\"data\",\"message\"]},\"_p_data.channel\":{\"ret_value\":\"text\",\"caption\":\"channel\",\"sample_value\":\"card\",\"path\":[\"data\",\"channel\"]},\"_p_data.ip_address\":{\"ret_value\":\"text\",\"caption\":\"ip_address\",\"sample_value\":null,\"path\":[\"data\",\"ip_address\"]},\"_p_data.log\":{\"ret_value\":\"text\",\"caption\":\"log\",\"sample_value\":null,\"path\":[\"data\",\"log\"]},\"_p_data.fees\":{\"ret_value\":\"number\",\"caption\":\"fees\",\"sample_value\":129,\"path\":[\"data\",\"fees\"]},\"_p_data.authorization.authorization_code\":{\"ret_value\":\"text\",\"caption\":\"authorization authorization_code\",\"sample_value\":\"AUTH_n9ihnjk1ga\",\"path\":[\"data\",\"authorization\",\"authorization_code\"]},\"_p_data.authorization.bin\":{\"ret_value\":\"text\",\"caption\":\"authorization bin\",\"sample_value\":\"408408\",\"path\":[\"data\",\"authorization\",\"bin\"]},\"_p_data.authorization.last4\":{\"ret_value\":\"text\",\"caption\":\"authorization last4\",\"sample_value\":\"4081\",\"path\":[\"data\",\"authorization\",\"last4\"]},\"_p_data.authorization.exp_month\":{\"ret_value\":\"text\",\"caption\":\"authorization exp_month\",\"sample_value\":\"12\",\"path\":[\"data\",\"authorization\",\"exp_month\"]},\"_p_data.authorization.exp_year\":{\"ret_value\":\"text\",\"caption\":\"authorization exp_year\",\"sample_value\":\"2030\",\"path\":[\"data\",\"authorization\",\"exp_year\"]},\"_p_data.authorization.channel\":{\"ret_value\":\"text\",\"caption\":\"authorization channel\",\"sample_value\":\"card\",\"path\":[\"data\",\"authorization\",\"channel\"]},\"_p_data.authorization.card_type\":{\"ret_value\":\"text\",\"caption\":\"authorization card_type\",\"sample_value\":\"visa \",\"path\":[\"data\",\"authorization\",\"card_type\"]},\"_p_data.authorization.bank\":{\"ret_value\":\"text\",\"caption\":\"authorization bank\",\"sample_value\":\"TEST BANK\",\"path\":[\"data\",\"authorization\",\"bank\"]},\"_p_data.authorization.country_code\":{\"ret_value\":\"text\",\"caption\":\"authorization country_code\",\"sample_value\":\"ZA\",\"path\":[\"data\",\"authorization\",\"country_code\"]},\"_p_data.authorization.brand\":{\"ret_value\":\"text\",\"caption\":\"authorization brand\",\"sample_value\":\"visa\",\"path\":[\"data\",\"authorization\",\"brand\"]},\"_p_data.authorization.reusable\":{\"ret_value\":\"boolean\",\"caption\":\"authorization reusable\",\"sample_value\":true,\"path\":[\"data\",\"authorization\",\"reusable\"]},\"_p_data.authorization.signature\":{\"ret_value\":\"text\",\"caption\":\"authorization signature\",\"sample_value\":\"SIG_uUpNoxVEiErLme0Lo0e6\",\"path\":[\"data\",\"authorization\",\"signature\"]},\"_p_data.authorization.account_name\":{\"ret_value\":\"text\",\"caption\":\"authorization account_name\",\"sample_value\":null,\"path\":[\"data\",\"authorization\",\"account_name\"]},\"_p_data.customer.id\":{\"ret_value\":\"number\",\"caption\":\"customer id\",\"sample_value\":74926165,\"path\":[\"data\",\"customer\",\"id\"]},\"_p_data.customer.first_name\":{\"ret_value\":\"text\",\"caption\":\"customer first_name\",\"sample_value\":null,\"path\":[\"data\",\"customer\",\"first_name\"]},\"_p_data.customer.last_name\":{\"ret_value\":\"text\",\"caption\":\"customer last_name\",\"sample_value\":null,\"path\":[\"data\",\"customer\",\"last_name\"]},\"_p_data.customer.email\":{\"ret_value\":\"text\",\"caption\":\"customer email\",\"sample_value\":\"lukman@paystack.co\",\"path\":[\"data\",\"customer\",\"email\"]},\"_p_data.customer.customer_code\":{\"ret_value\":\"text\",\"caption\":\"customer customer_code\",\"sample_value\":\"CUS_89aq1sf5ptmsrl2\",\"path\":[\"data\",\"customer\",\"customer_code\"]},\"_p_data.customer.phone\":{\"ret_value\":\"text\",\"caption\":\"customer phone\",\"sample_value\":null,\"path\":[\"data\",\"customer\",\"phone\"]},\"_p_data.customer.metadata\":{\"ret_value\":\"text\",\"caption\":\"customer metadata\",\"sample_value\":null,\"path\":[\"data\",\"customer\",\"metadata\"]},\"_p_data.customer.risk_action\":{\"ret_value\":\"text\",\"caption\":\"customer risk_action\",\"sample_value\":\"default\",\"path\":[\"data\",\"customer\",\"risk_action\"]},\"_p_data.customer.international_format_phone\":{\"ret_value\":\"text\",\"caption\":\"customer international_format_phone\",\"sample_value\":null,\"path\":[\"data\",\"customer\",\"international_format_phone\"]},\"_p_data.plan\":{\"ret_value\":\"text\",\"caption\":\"plan\",\"sample_value\":null,\"path\":[\"data\",\"plan\"]},\"_p_data.id\":{\"ret_value\":\"number\",\"caption\":\"id\",\"sample_value\":2081244665,\"path\":[\"data\",\"id\"]}}}}",
+            "url": "https://api.paystack.co/transaction/charge_authorization"
+        }
+    },
+    "human": "Paystack API",
+    "shared_headers": {
+    },
+    "token_param_name": "Authorization"
+}

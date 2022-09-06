@@ -1,0 +1,198 @@
+{
+    "add_hover_pressed": true,
+    "add_is_visible": true,
+    "autobinding_value": "boolean",
+    "can_fit_height": true,
+    "can_fit_width": true,
+    "category": "visual elements",
+    "default_dim": {
+        "width": 300
+    },
+    "display": "Pay Button",
+    "events": {
+        "ACH": {
+            "caption": "transaction succeeds on checkout",
+            "name": "onsuccess"
+        },
+        "ACI": {
+            "caption": "customer closes checkout",
+            "name": "onclose"
+        },
+        "ACJ": {
+            "caption": "error occurs in checkout",
+            "name": "onerror"
+        },
+        "ACM": {
+            "caption": "customer loads checkout",
+            "name": "onload"
+        }
+    },
+    "fields": {
+        "AAK": {
+            "caption": "Pay button text",
+            "default_val": "Pay with Paystack",
+            "editor": "StaticText",
+            "in_style": true,
+            "name": "button_text",
+            "rank": 1
+        },
+        "ACD": {
+            "caption": "The email address of the customer",
+            "default_val": "customer@email.com",
+            "doc": "The email address of the customer",
+            "editor": "DynamicValue",
+            "name": "email",
+            "rank": 3,
+            "value": "text"
+        },
+        "ACE": {
+            "caption": "transaction amount",
+            "default_val": 10000,
+            "doc": "The amount of the transaction in the smallest currency unit, i.e kobo for Naira transactions, pesewas for Cedis transactions etc.",
+            "editor": "DynamicValue",
+            "name": "amount",
+            "rank": 4,
+            "value": "number"
+        },
+        "ACF": {
+            "caption": "plan code",
+            "doc": "A valid Paystack plan code e.g. PLN_cujsmvoyq2209ws.",
+            "editor": "DynamicValue",
+            "name": "plan_code",
+            "optional": true,
+            "rank": 5,
+            "value": "text"
+        },
+        "ACN": {
+            "caption": "reference",
+            "doc": "Unique case sensitive transaction reference. Only -,`.`, = and alphanumeric characters allowed. If not specified, a reference will be auto-generated for the transaction",
+            "editor": "DynamicValue",
+            "name": "reference",
+            "optional": true,
+            "rank": 6,
+            "value": "text"
+        },
+        "ACU": {
+            "caption": "show_badge",
+            "default_val": true,
+            "editor": "Checkbox",
+            "name": "show_badge",
+            "rank": 2
+        },
+        "ACV": {
+            "caption": "label",
+            "doc": "String of text to show in place of customer's email on checkout",
+            "editor": "DynamicValue",
+            "name": "label",
+            "optional": true,
+            "rank": 7
+        },
+        "ACW": {
+            "caption": "channels",
+            "editor": "Dropdown",
+            "name": "channels",
+            "optional": true,
+            "options": "card, bank, pay_with_transfer, ussd, qr, eft, mobile_money, apple_pay",
+            "rank": 8
+        },
+        "ACX": {
+            "caption": "split_code",
+            "doc": "A valid Paystack split code e.g. SPL_98WF13Eb3w",
+            "editor": "DynamicValue",
+            "name": "split_code",
+            "optional": true,
+            "rank": 9,
+            "value": "text"
+        },
+        "ACY": {
+            "caption": "subaccount",
+            "doc": "A valid Paystack subaccount code e.g. SUB_386FW3Eb3",
+            "editor": "DynamicValue",
+            "name": "subaccount",
+            "optional": true,
+            "rank": 10,
+            "value": "text"
+        },
+        "ACZ": {
+            "caption": "button_theme",
+            "default_val": "Normal",
+            "editor": "Dropdown",
+            "name": "button_theme",
+            "options": "Normal,Light",
+            "rank": 0
+        },
+        "AEd": {
+            "caption": "currency",
+            "editor": "Dropdown",
+            "name": "currency",
+            "optional": true,
+            "options": "NGN,GHS,ZAR,KES,USD",
+            "rank": 11
+        }
+    },
+    "has_reset_fn": false,
+    "icon": "ion-card",
+    "property_applications": {
+        "MinWidth": true,
+        "resizable": true
+    },
+    "states": {
+        "ACG": {
+            "caption": "Disabled",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "disabled",
+            "value": "boolean"
+        },
+        "ACO": {
+            "caption": "transaction  reference",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "reference",
+            "value": "text"
+        },
+        "ACa": {
+            "caption": "transaction status",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "status",
+            "value": "text"
+        },
+        "ACb": {
+            "caption": "transaction amount",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "amount",
+            "value": "number"
+        },
+        "ACc": {
+            "caption": "response message",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "message",
+            "value": "text"
+        },
+        "ACd": {
+            "caption": "transaction_id",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "transaction_id",
+            "value": "number"
+        },
+        "ACf": {
+            "caption": "customer email",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "email",
+            "value": "text"
+        }
+    },
+    "support_autobinding": true
+}
