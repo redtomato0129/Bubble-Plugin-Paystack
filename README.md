@@ -1,8 +1,4 @@
-# Bubble docs
-
-Date: September 7, 2022 1:15 PM
-Development Status: In Review
-Last Edited Time: September 20, 2022 1:57 PM
+# Bubble Paystack plugin
 
 [Bubble.io](http://Bubble.io) is a no-code app development framework that lets you design, develop, host, and scale applications without a single line of code. Bubble can be used to build any kind of application whether it’s just a hobby app for personal use, or a complex piece of software built to run an entire large-scale business.
 
