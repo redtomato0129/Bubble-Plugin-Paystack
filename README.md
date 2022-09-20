@@ -17,11 +17,11 @@ With the Paystack plugin, you can now accept seamless and secure payments in you
 
 - Open your application project, and click on the Plugins menu on the left bar.
 
-![Screenshot 2022-09-15 at 02.27.32.png](Bubble%20docs%20c5afc3010e9747cf93d03250e278c433/Screenshot_2022-09-15_at_02.27.32.png)
+![Screenshot 2022-09-15 at 02.27.32.png](https://asset.cloudinary.com/drps6uoe4/921c0b47c8b731d7dc9c4253b557cb01)
 
 - Click “Add Plugins”, then search for Paystack
 
-![Screenshot 2022-09-15 at 02.34.00.png](Bubble%20docs%20c5afc3010e9747cf93d03250e278c433/Screenshot_2022-09-15_at_02.34.00.png)
+![Screenshot 2022-09-15 at 02.34.00.png](https://asset.cloudinary.com/drps6uoe4/ca5013f681093f24c48b34015b0d886e)
 
 - Click to install, then close the modal.
 
@@ -42,7 +42,7 @@ Done? Amazing. Settings are auto-saved in Bubble and we’re good to start accep
 
 The component is available in the *Design —> Visual Elements* section of your application. 
 
-![Screenshot 2022-09-15 at 12.55.30.png](Bubble%20docs%20c5afc3010e9747cf93d03250e278c433/Screenshot_2022-09-15_at_12.55.30.png)
+![Screenshot 2022-09-15 at 12.55.30.png](https://asset.cloudinary.com/drps6uoe4/5063ef130c5170e86c30c4124d8c1667)
 
    
 
@@ -117,7 +117,7 @@ You can combine these to build interesting workflows to control during and post 
 
 When a Pay Button transaction is successful —> Create a new transaction record  —> Redirect user to thank you page.
 
-![Screenshot 2022-09-16 at 13.33.50.png](Bubble%20docs%20c5afc3010e9747cf93d03250e278c433/Screenshot_2022-09-16_at_13.33.50.png)
+![Screenshot 2022-09-16 at 13.33.50.png](https://asset.cloudinary.com/drps6uoe4/83df4dd8aac4681cd37bdf04409a174c)
 
 ## Fetching Data
 
