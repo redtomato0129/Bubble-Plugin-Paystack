@@ -1,5 +1,7 @@
 # Bubble Paystack plugin
 
+![Banner Image](https://res.cloudinary.com/drps6uoe4/image/upload/v1664976005/Blog_Cover_dranwi.jpg)
+
 [Bubble.io](http://Bubble.io) is a no-code app development framework that lets you design, develop, host, and scale applications without a single line of code. Bubble can be used to build any kind of application whether it’s just a hobby app for personal use, or a complex piece of software built to run an entire large-scale business.
 
 With the Paystack plugin, you can now accept seamless and secure payments in your Bubble applications. Here’s how to get started!
@@ -17,7 +19,7 @@ With the Paystack plugin, you can now accept seamless and secure payments in you
 
 - Click “Add Plugins”, then search for Paystack
 
-![Screenshot 2022-09-15 at 02.34.00.png](https://res.cloudinary.com/drps6uoe4/image/upload/v1663678967/Screenshot_2022-09-15_at_02.34.00_qdw70r.png)
+![Screenshot 2022-09-15 at 02.34.00.png](https://res.cloudinary.com/drps6uoe4/image/upload/v1664975875/Screenshot_2022-10-05_at_13.39.21_l2xnjx.png)
 
 - Click to install, then close the modal.
 
@@ -32,13 +34,13 @@ Up next, copy your live secret key from the dashboard and add it to the API key 
 
 Done? Amazing. Settings are auto-saved in Bubble and we’re good to start accepting payments!
 
-## Using the Pay Button
+## Using the Paystack Button
 
  This plugin provides a Pay Button component that allows you to seamlessly and securely accept payments on your application. When the button is clicked, the customer is presented with a popup checkout UI where they can enter their payment information.
 
 The component is available in the *Design —> Visual Elements* section of your application. 
 
-![Screenshot 2022-09-15 at 12.55.30.png](https://res.cloudinary.com/drps6uoe4/image/upload/v1663678961/Screenshot_2022-09-15_at_12.55.30_ea4dyl.png)
+![Screenshot 2022-09-15 at 12.55.30.png](https://res.cloudinary.com/drps6uoe4/image/upload/v1664975879/Screenshot_2022-10-05_at_13.40.52_ljtszf.png)
 
    
 
@@ -55,10 +57,10 @@ The component can be configured with the parameters below.
 | Plan code | If transaction is to create a subscription to a predefined plan, provide valid Paystack plan code here e.g PLN_093nkdt8. This would invalidate the value provided in amount | No |
 | Split code | If you want to split the transaction with multiple partners, add a valid Paystack split code here. e.g. SPL_98WF13Eb3w | No |
 | Subaccount | If you want to split the transaction with one partner, add a valid Paystack subaccount code here. e.g. SUB_57RT4kf0 | No |
-| Show badge | Choose whether to show the Secured By Paystack badge beneath the Pay Button. Defaults to true. | Yes |
-| Button text | Text to show on the Pay Button. Defaults to “Pay with Paystack” | Yes |
-| Background color | Background color for the Pay Button defaults to green | Yes |
-| Text color | Text color for the Pay Button. Defaults to white. | Yes |
+| Show badge | Choose whether to show the Secured By Paystack badge beneath the Paystack Button. Defaults to true. | Yes |
+| Button text | Text to show on the Paystack Button. Defaults to “Pay with Paystack” | Yes |
+| Background color | Background color for the Paystack Button defaults to green | Yes |
+| Text color | Text color for the Paystack Button. Defaults to white. | Yes |
 
 The button configuration fields are flexible and accept dynamic values, for example, the `email address` can be set to the email of the currently signed-in user or a value from an input field on your page. Likewise, the plan code can be copied from the dashboard and hardcoded or fetched from the plugins’ data API calls.
 
@@ -66,14 +68,14 @@ These parameters should be set according to your application use case.
 
 ### Building workflows using events and states
 
-After configuring the *Pay Button*, you can use the component’s events and states to control the experience and what happens after the button is clicked.
+After configuring the *Paystack Button*, you can use the component’s events and states to control the experience and what happens after the button is clicked.
 
 An event can be used as a trigger that starts a workflow, and there are four different events you can listen for on the component. The events are;
 
-- When a Pay Button checkout is loaded
-- When a Pay Button transaction is successful
-- When a Pay Button checkout is closed
-- When a Pay Button checkout fails to load
+- When a Paystack Button checkout is loaded
+- When a Paystack Button transaction is successful
+- When a Paystack Button checkout is closed
+- When a Paystack Button checkout fails to load
 
 The component also exposes states with parameters related to the transaction created by the button.
 
@@ -90,34 +92,34 @@ The component also exposes states with parameters related to the transaction cre
 
 These states are updated at different points in the lifecycle of a transaction in sync with the events triggered by the plugin. Here’s how the states and events relate to each other;
 
-When a Pay Button checkout is loaded;
+When a Paystack Button checkout is loaded;
 
 - `email` , `amount`, and `transaction_id` are set to their respective values
 - `status` is set to `ongoing`
 
-When a Pay Button transaction is successful;
+When a Paystack Button transaction is successful;
 
 - `reference` and `message` are updated to their respective values
 - `status` is set to `success`
 
-When a Pay Button checkout is closed;
+When a Paystack Button checkout is closed;
 
 - `status` is set to `abandoned`
 
-When a Pay Button checkout fails to load
+When a Paystack Button checkout fails to load
 
 - `error` is set to the failure reason
 - `status` is set to `error`
 
 You can combine these to build interesting workflows to control during and post payment experience. Here’s a  sample workflow you can build
 
-When a Pay Button transaction is successful —> Create a new transaction record  —> Redirect user to thank you page.
+When a Paystack Button transaction is successful —> Create a new transaction record  —> Redirect user to thank you page.
 
 ![Screenshot 2022-09-16 at 13.33.50.png](https://res.cloudinary.com/drps6uoe4/image/upload/v1663678959/Screenshot_2022-09-16_at_13.33.50_ylihum.png)
 
 ## Fetching Data
 
-The plugin provides API calls for fetching data from your Paystack business. The response from these calls can be used as data sources to configure the *Pay Button*, input fields, or any other elements on your page that accepts dynamic values.
+The plugin provides API calls for fetching data from your Paystack business. The response from these calls can be used as data sources to configure the *Paystack Button*, input fields, or any other elements on your page that accepts dynamic values.
 
 When you choose “Get Data from an external API”, you will find these options available under the Paystack plugin;
 
