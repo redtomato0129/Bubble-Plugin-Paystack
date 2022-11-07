@@ -197,4 +197,5 @@ This action allows you to create a subscription plan on your integration by spec
 This action can be used to subscribe a customer to an existing plan. You’d need to provide the customer's email address, plan code, and a reusable authorization code. The response including the status and subscription code can be accessed in the subsequent actions as 'Result of previous step.’
 
 ## Accept Payments in Bubble using Paystack Popup checkout [VIDEO TUTORIAL]
-[![IMAGE ALT TEXT HERE](https://res.cloudinary.com/drps6uoe4/image/upload/v1665501231/Email_3_xhv7hj.jpg)](https://www.youtube.com/watch?v=MtqcpkWjxiU)
+In this video, you'll learn how to set up Paystack on your Bubble application and accept payments using the popup checkout.
+[![IMAGE ALT TEXT HERE](https://res.cloudinary.com/drps6uoe4/image/upload/v1667836692/Group_1_4_k2fyd3.png)](https://www.youtube.com/watch?v=MtqcpkWjxiU)
