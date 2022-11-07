@@ -10,21 +10,21 @@
   - [Using the Paystack Button](#using-the-paystack-button)
     - [Building workflows using events and states](#building-workflows-using-events-and-states)
   - [Fetching Data](#fetching-data)
-    - [List Transactions [🔗](https://paystack.com/docs/api/#transaction-list)](#list-transactions-httpspaystackcomdocsapitransaction-list)
-    - [List Plans [🔗](https://paystack.com/docs/api/#plan-list)](#list-plans-httpspaystackcomdocsapiplan-list)
-    - [List Customers [🔗](https://paystack.com/docs/api/#customer-list)](#list-customers-httpspaystackcomdocsapicustomer-list)
-    - [Fetch Customer [🔗](https://paystack.com/docs/api/#customer-fetch)](#fetch-customer-httpspaystackcomdocsapicustomer-fetch)
-    - [List Subaccounts [🔗](https://paystack.com/docs/api/#subaccount-list)](#list-subaccounts-httpspaystackcomdocsapisubaccount-list)
-    - [List Splits [🔗](https://paystack.com/docs/api/#split-list)](#list-splits-httpspaystackcomdocsapisplit-list)
+    - [List Transactions](#list-transactions-)
+    - [List Plans](#list-plans-)
+    - [List Customers](#list-customers-)
+    - [Fetch Customer](#fetch-customer-)
+    - [List Subaccounts](#list-subaccounts-)
+    - [List Splits](#list-splits-)
   - [Plugin Actions](#plugin-actions)
-    - [Initialize a transaction [🔗](https://paystack.com/docs/api/#transaction-initialize)](#initialize-a-transaction-httpspaystackcomdocsapitransaction-initialize)
-    - [Verify transaction [🔗](https://paystack.com/docs/api/#transaction-verify)](#verify-transaction-httpspaystackcomdocsapitransaction-verify)
-    - [Charge an Authorization code [🔗](https://paystack.com/docs/api/#transaction-charge-authorization)](#charge-an-authorization-code-httpspaystackcomdocsapitransaction-charge-authorization)
+    - [Initialize a transaction](#initialize-a-transaction-)
+    - [Verify transaction](#verify-transaction-)
+    - [Charge an Authorization code](#charge-an-authorization-code-)
     - [Create plan](#create-plan)
     - [Subscribe a customer to a plan](#subscribe-a-customer-to-a-plan)
   - [Accept Payments in Bubble using Paystack Popup checkout [VIDEO TUTORIAL]](#accept-payments-in-bubble-using-paystack-popup-checkout-video-tutorial)
 
-  
+
 [Bubble.io](http://Bubble.io) is a no-code app development framework that lets you design, develop, host, and scale applications without a single line of code. Bubble can be used to build any kind of application whether it’s just a hobby app for personal use, or a complex piece of software built to run an entire large-scale business.
 
 With the Paystack plugin, you can now accept seamless and secure payments in your Bubble applications. Here’s how to get started!
