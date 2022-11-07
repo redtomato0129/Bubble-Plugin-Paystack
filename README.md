@@ -22,7 +22,7 @@
     - [Charge an Authorization code](#charge-an-authorization-code-)
     - [Create plan](#create-plan)
     - [Subscribe a customer to a plan](#subscribe-a-customer-to-a-plan)
-  - [Accept Payments in Bubble using Paystack Popup checkout [VIDEO TUTORIAL]](#accept-payments-in-bubble-using-paystack-popup-checkout-video-tutorial)
+  - [ [VIDEO TUTORIAL] Accept Payments in Bubble using Paystack Popup checkout](#accept-payments-in-bubble-using-paystack-popup-checkout-video-tutorial)
 
 ____
 
