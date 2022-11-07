@@ -24,6 +24,9 @@
     - [Subscribe a customer to a plan](#subscribe-a-customer-to-a-plan)
   - [Accept Payments in Bubble using Paystack Popup checkout [VIDEO TUTORIAL]](#accept-payments-in-bubble-using-paystack-popup-checkout-video-tutorial)
 
+____
+
+## Getting Started
 
 [Bubble.io](http://Bubble.io) is a no-code app development framework that lets you design, develop, host, and scale applications without a single line of code. Bubble can be used to build any kind of application whether it’s just a hobby app for personal use, or a complex piece of software built to run an entire large-scale business.
 
@@ -34,7 +37,6 @@ With the Paystack plugin, you can now accept seamless and secure payments in you
 
 </aside>
 
-## Getting Started
 ### Install and configure the plugin
 
 - Open your application project, and click on the Plugins menu on the left bar.
