@@ -193,6 +193,39 @@ List subaccounts available on your integration.
 
 List splits available on your integration
 
+### Fetch Subscription [🔗](https://paystack.com/docs/api/subscription/#fetch)
+
+Get details of a subscription on your integration.
+
+**Input Parameters**
+
+| Parameter | Description | Required |
+| --- | --- | --- |
+| id_or_code | The subscription ID or code you want to fetch | Yes |
+
+### Generate Update Subscription Link [🔗](https://paystack.com/docs/api/subscription/#manage-link)
+
+Generate a link for cancelling or updating the card on a subscription.
+
+**Input Parameters**
+
+| Parameter | Description | Required |
+| --- | --- | --- |
+| code | Subscription code | Yes |
+
+### List Banks [🔗](https://paystack.com/docs/api/miscellaneous/#bank)
+
+Get a list of all supported banks and their properties
+
+| Parameter | Description | Required |
+| --- | --- | --- |
+| country | The country from which to obtain the list of supported banks. e.g country=ghana or country=nigeria | Yes |
+| pay_with_bank_transfer | A flag to filter for available banks a customer can make a transfer to complete a payment | No |
+| pay_with_bank | A flag to filter for banks a customer can pay directly from | No |
+| gateway | The gateway type of the bank. It can be one of these: [emandate, digitalbankmandate] | No |
+| type | Type of financial channel. For Ghanaian channels, please use either mobile_money for mobile money channels OR ghipps for bank channels | No |
+| currency | One of the supported currency | No |
+
 ## Plugin Actions
 
 ### Initialize a transaction [🔗](https://paystack.com/docs/api/#transaction-initialize)
@@ -214,13 +247,25 @@ This action is used to charge a customer using a previously used card, i.e autho
 
 The response from Paystack including the status of the transaction can be accessed in the subsequent actions as 'Result of previous step.’
 
-### Create plan
+### Create plan [🔗](https://paystack.com/docs/api/plan/#create)
 
 This action allows you to create a subscription plan on your integration by specifying an amount, interval, and name for the plan. The response includes a plan_code which can be accessed in the subsequent actions as 'Result of previous step.’
 
-### Subscribe a customer to a plan
+### Subscribe a customer to a plan [🔗](https://paystack.com/docs/api/subscription/#create)
 
 This action can be used to subscribe a customer to an existing plan. You’d need to provide the customer's email address, plan code, and a reusable authorization code. The response including the status and subscription code can be accessed in the subsequent actions as 'Result of previous step.’
+
+### Create Refund [🔗](https://paystack.com/docs/api/refund/#create)
+
+This action can be used to refund a customer partially or fully for a transaction. You’d be required to provide at least the transaction reference and if you want to process a partial refund, the amount. The response including the status and amount can be accessed in the subsequent actions as 'Result of previous step.’
+
+### Create Subaccount [🔗](https://paystack.com/docs/api/subaccount/#create)
+
+This action can be used to add a bank account for a partner you want to split payments with. You’d need to provide the business name, bank code which can be gotten from the list banks API call, bank account name and the percentage charge that should be paid to your business. The response includes the subaccount code which can be accessed in the subsequent actions as 'Result of previous step.’
+
+### Create Customer [🔗](https://paystack.com/docs/api/customer/#create)
+
+This action can be used to create a customer in your integration. You’d need to provide the customer's email address, first name and last name. The response includes the customer code which can be accessed in the subsequent actions as 'Result of previous step.’
 
 ## Accept Payments in Bubble using Paystack Popup checkout [VIDEO TUTORIAL]
 In this video, you'll learn how to set up Paystack on your Bubble application and accept payments using the popup checkout.
